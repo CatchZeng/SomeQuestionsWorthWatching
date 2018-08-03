@@ -16,6 +16,8 @@
 		628DA530210EDF05001CCAE7 /* DemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 628DA52F210EDF05001CCAE7 /* DemoTests.m */; };
 		628DA53E210EDF58001CCAE7 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 628DA53D210EDF58001CCAE7 /* Person.m */; };
 		628DA541210EDFD0001CCAE7 /* Student.m in Sources */ = {isa = PBXBuildFile; fileRef = 628DA540210EDFD0001CCAE7 /* Student.m */; };
+		62DE42552113EA7E00D3E293 /* Person+Test.m in Sources */ = {isa = PBXBuildFile; fileRef = 62DE42542113EA7E00D3E293 /* Person+Test.m */; };
+		62DE42582113EAED00D3E293 /* Person+Test2.m in Sources */ = {isa = PBXBuildFile; fileRef = 62DE42572113EAED00D3E293 /* Person+Test2.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +48,10 @@
 		628DA53D210EDF58001CCAE7 /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 		628DA53F210EDFD0001CCAE7 /* Student.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Student.h; sourceTree = "<group>"; };
 		628DA540210EDFD0001CCAE7 /* Student.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Student.m; sourceTree = "<group>"; };
+		62DE42532113EA7E00D3E293 /* Person+Test.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Person+Test.h"; sourceTree = "<group>"; };
+		62DE42542113EA7E00D3E293 /* Person+Test.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Person+Test.m"; sourceTree = "<group>"; };
+		62DE42562113EAED00D3E293 /* Person+Test2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Person+Test2.h"; sourceTree = "<group>"; };
+		62DE42572113EAED00D3E293 /* Person+Test2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Person+Test2.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +106,10 @@
 				628DA53D210EDF58001CCAE7 /* Person.m */,
 				628DA53F210EDFD0001CCAE7 /* Student.h */,
 				628DA540210EDFD0001CCAE7 /* Student.m */,
+				62DE42532113EA7E00D3E293 /* Person+Test.h */,
+				62DE42542113EA7E00D3E293 /* Person+Test.m */,
+				62DE42562113EAED00D3E293 /* Person+Test2.h */,
+				62DE42572113EAED00D3E293 /* Person+Test2.m */,
 			);
 			path = Demo;
 			sourceTree = "<group>";
@@ -213,8 +223,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				62DE42552113EA7E00D3E293 /* Person+Test.m in Sources */,
 				628DA51B210EDF03001CCAE7 /* ViewController.m in Sources */,
 				628DA526210EDF05001CCAE7 /* main.m in Sources */,
+				62DE42582113EAED00D3E293 /* Person+Test2.m in Sources */,
 				628DA541210EDFD0001CCAE7 /* Student.m in Sources */,
 				628DA53E210EDF58001CCAE7 /* Person.m in Sources */,
 				628DA518210EDF03001CCAE7 /* AppDelegate.m in Sources */,

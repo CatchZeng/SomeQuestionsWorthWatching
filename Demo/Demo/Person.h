@@ -8,8 +8,10 @@
 
 #import <Foundation/Foundation.h>
 
-@interface Person : NSObject
+@interface Person : NSObject {
+    int _age;
+}
 
-@property(nonatomic, assign) int age;
+- (void)run;
 
 @end

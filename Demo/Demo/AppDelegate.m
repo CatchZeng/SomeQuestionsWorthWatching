@@ -23,9 +23,7 @@
     // Override point for customization after application launch.
     
     Person* person = [[Person alloc] init];
-    
     Student* student = [[Student alloc] init];
-    
     NSLog(@"%zd, %zd", class_getInstanceSize([Person class]), class_getInstanceSize([Student class]));
     
     return YES;
